@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hello, I am Sammar Ali <br>🔭 I’m currently working on Data Analysis and ML/AI Projects<br>👯 I’m looking to collaborate on Open-Source Data Analysis Projects <br>🤝 I’m looking for help with the deep learning of R programming language<br>🌱 I’m currently learning R, LLMs and ML<br>⚡ Fun fact: I've played for my nation in an International U-14 Football Tournament<br> Contact me: wsammar.ali@outloook.com
+Hello, I am Sammar Ali <br>🔭 I’m currently working on Data Analysis and ML/AI Projects<br>🌱 I’m currently learning R, LLMs and ML<br>⚡ Fun fact: I've played for my nation in an International U-14 Football Tournament<br> Contact me: wsammar.ali@outloook.com
 
 
 ## 🌐 Socials:
