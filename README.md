@@ -1,9 +1,3 @@
-# 💫 About Me:
-Working on AI with AI. 
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syed-sammar-ali-shah/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:wsammar.ali@outlook.com) 
-
 <h1 align="center">Sammar Ali</h1>
 
 <p align="center">
