@@ -47,52 +47,50 @@ are **measured, not just demoed**: evaluation, cost control, and reproducibility
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
 
-<!-- Trim any badge above that you can't speak to confidently in an interview. -->
-
 ---
 
 ### Featured Projects
 
-#### 📚 [Knowledge Core](https://github.com/Sammar03/Knowledge-Core) &nbsp;·&nbsp; [Live Demo →](https://knowledge-core-tau.vercel.app)
-Company-document RAG assistant, employees upload PDFs/TXT/MD into a **shared pgvector
-knowledge base** and chat with **grounded, cited, multi-turn** answers. The retrieval pipeline
-rewrites follow-up questions into standalone queries, pulls a wide candidate set above a cosine
-threshold, then **LLM-reranks to the top 5**. The answers come only from numbered source blocks or
-it refuses. Stateless FastAPI backend with API-key / admin auth, IP rate limiting, and input
-caps; deployed end-to-end.
+#### [Knowledge Core](https://github.com/Sammar03/Knowledge-Core) &nbsp;·&nbsp; [Live Demo →](https://knowledge-core-tau.vercel.app)
+Company-document RAG assistant where employees chat with their own files.
+- Upload PDFs/TXT/MD into a **shared pgvector knowledge base**
+- Get **grounded, cited, multi-turn** answers — or a clean refusal if nothing matches
+- Retrieval pipeline rewrites follow-ups into standalone queries, pulls a wide candidate set above a cosine threshold, then **LLM-reranks to the top 5**
+- Answers come only from numbered source blocks (no hallucination)
+- Stateless FastAPI backend with API-key / admin auth, IP rate limiting, and input caps
+- Deployed end-to-end
+
 &nbsp;`FastAPI` · `React` · `PostgreSQL` · `pgvector` · `RAG`
 
-#### ⚽ [FIFA World Cup Intelligence Dashboard](https://github.com/Sammar03/fifa-world-cup-dashboard) &nbsp;·&nbsp; [Live Demo →](https://fifa-world-cup-dashboard-sandy.vercel.app)
-Real-time 2026 World Cup dashboard with a **cache-first ingestion architecture**. The
-frontend never touches a third-party API or the LLM. Standings are recomputed from finished
-fixtures and cross-verified across two data sources. Multi-provider LLM layer (Groq / Gemini /
-OpenRouter / Anthropic / OpenAI) with a hard daily cost circuit-breaker. 24 backend tests.
+#### [FIFA World Cup Intelligence Dashboard](https://github.com/Sammar03/fifa-world-cup-dashboard) &nbsp;·&nbsp; [Live Demo →](https://fifa-world-cup-dashboard-sandy.vercel.app)
+Real-time 2026 World Cup dashboard built on a **cache-first ingestion architecture**.
+- Frontend never touches a third-party API or the LLM directly
+- Standings recomputed from finished fixtures and cross-verified across two data sources
+- Multi-provider LLM layer
+- Hard daily cost circuit-breaker to cap spend
+- 24 backend tests
+
 &nbsp;`FastAPI` · `Next.js` · `PostgreSQL` · `Docker` · `LLM`
 
-#### 🩺 [AI Health Assistant](https://github.com/Sammar03/ai_health_assistant)
-Analyzes medical discharge summaries and generates patient-friendly insights using LLMs,
-with secure Firebase storage and a modular Streamlit frontend.
+#### [AI Health Assistant](https://github.com/Sammar03/ai_health_assistant)
+Turns medical discharge summaries into patient-friendly insights.
+- Analyzes discharge summaries and generates plain-language insights using LLMs
+- Secure Firebase storage
+- Modular Streamlit frontend
+
 &nbsp;`Python` · `LLM` · `Streamlit` · `Firebase`
 
-#### 📧 [Email Extractor](https://github.com/Sammar03/email_extractor)
-Lightweight tool that extracts email addresses from PDF invoices into Excel, built with a
-modular design for OCR / CRM extension.
-&nbsp;`Python` · `PDF parsing`
+#### [Email Extractor](https://github.com/Sammar03/email_extractor)
+Lightweight tool for pulling contacts out of invoices.
+- Extracts email addresses from PDF invoices into Excel
+- Modular design built for OCR / CRM extension
 
-<!--
-  As you build the RAG / agent / eval projects, add them here and bump weaker
-  entries down. Keep the strongest project first.
--->
+&nbsp;`Python` · `PDF parsing`
 
 ---
 
 <details>
 <summary>📊 GitHub Stats</summary>
-
-<!--
-  Keep this collapsed (or remove entirely) until your activity is consistent —
-  low streak/commit numbers shown openly work against you. Re-enable when ready.
--->
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Sammar03&theme=transparent&hide_border=true&include_all_commits=false&count_private=false" />
