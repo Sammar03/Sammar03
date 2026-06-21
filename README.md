@@ -4,9 +4,96 @@ Working on AI with AI.
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syed-sammar-ali-shah/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:wsammar.ali@outlook.com) 
 
+<h1 align="center">Sammar Ali</h1>
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Sammar03&theme=transparent&hide_border=true&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Sammar03&theme=transparent&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Sammar03&theme=transparent&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
+<p align="center">
+  <b>AI Engineer</b> · LLM applications, RAG, and ML systems<br>
+  Building production AI with FastAPI · Next.js · Python
+</p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/syed-sammar-ali-shah/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:[wsammar.ali@outlook.com]">
+    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="[your-portfolio-or-resume-link]">
+    <img src="https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white" alt="Portfolio"></a>
+</p>
+
+---
+
+### About
+
+AI Engineer focused on shipping LLM-powered applications end to end, from data ingestion
+and retrieval pipelines to backend APIs and deployed frontends. I care about systems that
+are **measured, not just demoed**: evaluation, cost control, and reproducibility.
+
+- 🔭 Currently working on **[your current project / focus — e.g. a RAG eval pipeline]**
+- 🌱 Going deeper on **[e.g. agentic workflows, fine-tuning, vector search]**
+- 📍 Based in **Islamabad/Lahore, Pakistan** · open to **[remote / relocation / specific roles]**
+
+---
+
+### Tech Stack
+
+**Languages** &nbsp;
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?logo=postgresql&logoColor=white)
+
+**AI / ML** &nbsp;
+![LLMs](https://img.shields.io/badge/LLMs-412991?logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-FF6F00)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=black)
+
+**Backend & Infra** &nbsp;
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+
+<!-- Trim any badge above that you can't speak to confidently in an interview. -->
+
+---
+
+### Featured Projects
+
+#### ⚽ [FIFA World Cup Intelligence Dashboard](https://github.com/Sammar03/fifa-world-cup-dashboard) &nbsp;·&nbsp; [Live Demo →](https://fifa-world-cup-dashboard-sandy.vercel.app)
+Real-time 2026 World Cup dashboard with a **cache-first ingestion architecture** — the
+frontend never touches a third-party API or the LLM. Standings are recomputed from finished
+fixtures and cross-verified across two data sources. Multi-provider LLM layer (Groq / Gemini /
+OpenRouter / Anthropic / OpenAI) with a hard daily cost circuit-breaker. 24 backend tests.
+&nbsp;`FastAPI` · `Next.js` · `PostgreSQL` · `Docker` · `LLM`
+
+#### 🩺 [AI Health Assistant](https://github.com/Sammar03/ai_health_assistant)
+Analyzes medical discharge summaries and generates patient-friendly insights using LLMs,
+with secure Firebase storage and a modular Streamlit frontend.
+&nbsp;`Python` · `LLM` · `Streamlit` · `Firebase`
+
+#### 📧 [Email Extractor](https://github.com/Sammar03/email_extractor)
+Lightweight tool that extracts email addresses from PDF invoices into Excel, built with a
+modular design for OCR / CRM extension.
+&nbsp;`Python` · `PDF parsing`
+
+<!--
+  As you build the RAG / agent / eval projects, add them here and bump weaker
+  entries down. Keep the strongest project first.
+-->
+
+---
+
+<details>
+<summary>📊 GitHub Stats</summary>
+
+<!--
+  Keep this collapsed (or remove entirely) until your activity is consistent —
+  low streak/commit numbers shown openly work against you. Re-enable when ready.
+-->
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Sammar03&theme=transparent&hide_border=true&include_all_commits=false&count_private=false" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sammar03&theme=transparent&hide_border=true&layout=compact" />
+</p>
+
+</details>
