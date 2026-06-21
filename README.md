@@ -53,6 +53,15 @@ are **measured, not just demoed**: evaluation, cost control, and reproducibility
 
 ### Featured Projects
 
+#### 📚 [Knowledge Core](https://github.com/Sammar03/Knowledge-Core) &nbsp;·&nbsp; [Live Demo →](https://knowledge-core-tau.vercel.app)
+Company-document RAG assistant — employees upload PDFs/TXT/MD into a **shared pgvector
+knowledge base** and chat with **grounded, cited, multi-turn** answers. The retrieval pipeline
+rewrites follow-up questions into standalone queries, pulls a wide candidate set above a cosine
+threshold, then **LLM-reranks to the top 5** — answers come only from numbered source blocks or
+it refuses. Stateless FastAPI backend with API-key / admin auth, IP rate limiting, and input
+caps; deployed end-to-end on free tiers.
+&nbsp;`FastAPI` · `React` · `PostgreSQL` · `pgvector` · `RAG`
+
 #### ⚽ [FIFA World Cup Intelligence Dashboard](https://github.com/Sammar03/fifa-world-cup-dashboard) &nbsp;·&nbsp; [Live Demo →](https://fifa-world-cup-dashboard-sandy.vercel.app)
 Real-time 2026 World Cup dashboard with a **cache-first ingestion architecture** — the
 frontend never touches a third-party API or the LLM. Standings are recomputed from finished
