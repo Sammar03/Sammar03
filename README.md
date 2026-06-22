@@ -22,9 +22,9 @@ AI Engineer focused on shipping LLM-powered applications end to end, from data i
 and retrieval pipelines to backend APIs and deployed frontends. I care about systems that
 are **measured, not just demoed**: evaluation, cost control, and reproducibility.
 
-- 🔭 Currently working on **[your current project / focus — e.g. a RAG eval pipeline]**
-- 🌱 Going deeper on **[e.g. agentic workflows, fine-tuning, vector search]**
-- 📍 Based in **Islamabad/Lahore, Pakistan** · open to **[remote / relocation / specific roles]**
+- Currently working on **AI Prompt Evaluation Platform**
+- Going deeper on **agentic workflows and harness engineering**
+- Based in **Islamabad/Lahore, Pakistan** · open to **remote/onsite roles as AI Engineer**
 
 ---
 
