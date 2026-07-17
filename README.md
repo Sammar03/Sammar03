@@ -79,22 +79,6 @@ Turns medical discharge summaries into patient-friendly insights.
 - Modular Streamlit frontend
 
 &nbsp;`Python` · `LLM` · `Streamlit` · `Firebase`
-
-#### [Email Extractor](https://github.com/Sammar03/email_extractor)
-Lightweight tool for pulling contacts out of invoices.
-- Extracts email addresses from PDF invoices into Excel
-- Modular design built for OCR / CRM extension
-
-&nbsp;`Python` · `PDF parsing`
-
 ---
-
-<details>
-<summary>📊 GitHub Stats</summary>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sammar03&theme=transparent&hide_border=true&include_all_commits=false&count_private=false" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sammar03&theme=transparent&hide_border=true&layout=compact" />
-</p>
 
 </details>
