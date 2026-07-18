@@ -79,6 +79,4 @@ Turns medical discharge summaries into patient-friendly insights.
 - Modular Streamlit frontend
 
 &nbsp;`Python` · `LLM` · `Streamlit` · `Firebase`
----
-
 </details>
