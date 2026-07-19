@@ -22,7 +22,7 @@ AI Engineer focused on shipping LLM-powered applications end to end, from data i
 and retrieval pipelines to backend APIs and deployed frontends. I care about systems that
 are **measured, not just demoed**: evaluation, cost control, and reproducibility.
 
-- Currently working on **AI Prompt Evaluation Platform**
+- Currently working on **Untemplate**, an anti-slop frontend skill
 - Going deeper on **agentic workflows and harness engineering**
 - Based in **Islamabad/Lahore, Pakistan** · open to **remote/onsite roles as AI Engineer**
 
@@ -51,6 +51,15 @@ are **measured, not just demoed**: evaluation, cost control, and reproducibility
 
 ### Featured Projects
 
+#### [Proving Ground](https://github.com/Sammar03/proving-ground) &nbsp;·&nbsp; [Live Demo →](https://proving-ground-fc.vercel.app)
+LLM eval bench: send one prompt to multiple models, judge the winner, track a leaderboard — for $0 on free-tier models.
+- Streams every model's answer live over SSE, side by side, with per-model compute time, network overhead, and token counts
+- Write-once verdicts (win / loss / draw) roll up into a live leaderboard ranked by win rate, latency, and tokens
+- FastAPI backend talks to Groq's OpenAI-compatible endpoint directly via `httpx`, no SDK
+- A failed model (rate limit, network) surfaces as an error card without sinking the rest of the run
+- Runs entirely on free tiers: two Vercel projects (Next.js + FastAPI) plus Neon Postgres
+&nbsp;`FastAPI` · `Next.js` · `TypeScript` · `Postgres` · `LLM`
+
 #### [Knowledge Core](https://github.com/Sammar03/Knowledge-Core) &nbsp;·&nbsp; [Live Demo →](https://knowledge-core-tau.vercel.app)
 Company-document RAG assistant where employees chat with their own files.
 - Upload PDFs/TXT/MD into a **shared pgvector knowledge base**
@@ -59,7 +68,6 @@ Company-document RAG assistant where employees chat with their own files.
 - Answers come only from numbered source blocks (no hallucination)
 - Stateless FastAPI backend with API-key / admin auth, IP rate limiting, and input caps
 - Deployed end-to-end
-
 &nbsp;`FastAPI` · `React` · `PostgreSQL` · `pgvector` · `RAG`
 
 #### [FIFA World Cup Intelligence Dashboard](https://github.com/Sammar03/fifa-world-cup-dashboard) &nbsp;·&nbsp; [Live Demo →](https://fifa-world-cup-dashboard-sandy.vercel.app)
@@ -69,7 +77,6 @@ Real-time 2026 World Cup dashboard built on a **cache-first ingestion architectu
 - Multi-provider LLM layer
 - Hard daily cost circuit-breaker to cap spend
 - 24 backend tests
-
 &nbsp;`FastAPI` · `Next.js` · `PostgreSQL` · `Docker` · `LLM`
 
 #### [AI Health Assistant](https://github.com/Sammar03/ai_health_assistant)
@@ -77,6 +84,5 @@ Turns medical discharge summaries into patient-friendly insights.
 - Analyzes discharge summaries and generates plain-language insights using LLMs
 - Secure Firebase storage
 - Modular Streamlit frontend
-
 &nbsp;`Python` · `LLM` · `Streamlit` · `Firebase`
 </details>
